@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Devis en ligne — Carrosserie des Fahys · Neuchâtel</title>
+<meta name="description" content="Demande de devis en 4 étapes : coordonnées, véhicule, dommage, photos.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="util"><div class="wrap">
+<span>REF : FAHYS-CH-2000</span><span>COORD : 46.9971° N, 6.9293° E</span><span>UID : CHE-107.915.728</span>
+<span class="u-r"><a href="tel:+41327302730">Tél : 032 730 27 30</a> · Lundi – Vendredi : 07:30 – 12:00 / 13:30 – 18:00</span>
+</div></div>
+<header class="site"><div class="wrap">
+<a class="logo" href="index.html" aria-label="Carrosserie des Fahys — Accueil"><b>Carrosserie <em>des Fahys</em></b><span>Max Gilgen · Atelier — Neuchâtel</span></a>
+<nav class="main" aria-label="Navigation principale"><a href="index.html" class="">01. Accueil</a><a href="services.html" class="">02. Services</a><a href="devis.html" class="on">03. Devis en ligne</a><a href="galerie.html" class="">04. Galerie avant / après</a><a href="a-propos.html" class="">05. À propos</a><a href="contact.html" class="">06. Contact</a></nav>
+<a class="btn" href="devis.html">Demander un devis →</a>
+<button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i><i></i></button>
+</div>
+<nav class="mobilenav" aria-label="Navigation mobile"><a href="index.html" class=""><span>01. Accueil</span><span>→</span></a><a href="services.html" class=""><span>02. Services</span><span>→</span></a><a href="devis.html" class="on"><span>03. Devis en ligne</span><span>→</span></a><a href="galerie.html" class=""><span>04. Galerie avant / après</span><span>→</span></a><a href="a-propos.html" class=""><span>05. À propos</span><span>→</span></a><a href="contact.html" class=""><span>06. Contact</span><span>→</span></a></nav>
+</header>
+<main id="contenu">
+
+<section class="pagehead"><div class="wrap">
+<p class="kicker"><b>Protocole de chiffrage // Atelier Neuchâtel</b> · Estimation gratuite · Sans engagement</p>
+<h1>Devis en ligne</h1>
+<p class="lede">Transmettez les informations relatives à votre véhicule et vos photos. Max Gilgen analyse votre demande et vous transmet une proposition chiffrée, sans engagement.</p>
+</div></section>
+
+<section class="block"><div class="wrap" style="max-width:880px">
+<div class="formcard" id="wizard">
+<div class="progress" role="list" aria-label="Étapes du devis">
+<button type="button" class="st on" data-goto="0" role="listitem"><b>01</b><span>Coordonnées</span></button>
+<button type="button" class="st" data-goto="1" role="listitem"><b>02</b><span>Véhicule</span></button>
+<button type="button" class="st" data-goto="2" role="listitem"><b>03</b><span>Dommage</span></button>
+<button type="button" class="st" data-goto="3" role="listitem"><b>04</b><span>Photos</span></button>
+</div>
+<form class="wiz" id="wiz-form" novalidate>
+<div class="fstep on" data-step="0">
+<h3 style="margin-bottom:6px">Étape 1 — Vos coordonnées</h3>
+<p class="note" style="margin-bottom:22px">Propriétaire &amp; contact. Ces informations servent uniquement à vous recontacter au sujet de votre demande.</p>
+<div class="field"><label for="f-nom">Nom complet / Raison sociale <span class="req">*</span></label><input id="f-nom" name="nom" type="text" placeholder="Ex : Alexandre Favre" data-required autocomplete="name"><span class="err">Ce champ est obligatoire.</span></div>
+<div class="frow">
+<div class="field"><label for="f-tel">Téléphone (rappel prioritaire) <span class="req">*</span></label><input id="f-tel" name="telephone" type="tel" placeholder="+41 79 000 00 00" data-required autocomplete="tel"><span class="err">Ce champ est obligatoire.</span></div>
+<div class="field"><label for="f-email">Adresse électronique <span class="req">*</span></label><input id="f-email" name="email" type="email" placeholder="client@exemple.ch" data-required autocomplete="email"><span class="err">Une adresse électronique valide est requise.</span></div>
+</div>
+<div class="frow">
+<div class="field"><label for="f-npa">NPA</label><input id="f-npa" name="npa" type="text" inputmode="numeric" placeholder="Ex : 2000"></div>
+<div class="field"><label for="f-commune">Commune de résidence</label><input id="f-commune" name="commune" type="text" placeholder="Ex : Neuchâtel"></div>
+</div>
+<div class="wiznav"><span></span><button type="button" class="btn" data-next>Étape suivante : Véhicule →</button></div>
+</div>
+
+<div class="fstep" data-step="1">
+<h3 style="margin-bottom:6px">Étape 2 — Votre véhicule</h3>
+<p class="note" style="margin-bottom:22px">Spécifications techniques du véhicule concerné.</p>
+<div class="frow">
+<div class="field"><label for="f-marque">Marque <span class="req">*</span></label><input id="f-marque" name="marque" type="text" placeholder="Ex : marque de votre véhicule" data-required><span class="err">Ce champ est obligatoire.</span></div>
+<div class="field"><label for="f-modele">Modèle exact <span class="req">*</span></label><input id="f-modele" name="modele" type="text" placeholder="Ex : modèle exact de votre véhicule" data-required><span class="err">Ce champ est obligatoire.</span></div>
+</div>
+<div class="frow">
+<div class="field"><label for="f-annee">Année de 1<sup>re</sup> mise en circulation</label><input id="f-annee" name="annee" type="text" inputmode="numeric" placeholder="Ex : 2019"></div>
+<div class="field"><label for="f-plaque">Immatriculation (plaque NE / VD / BE…)</label><input id="f-plaque" name="plaque" type="text" placeholder="Ex : NE 123456"></div>
+</div>
+<div class="wiznav"><button type="button" class="btn ghost" data-prev>← Retour</button><button type="button" class="btn" data-next>Étape suivante : Dommage →</button></div>
+</div>
+
+<div class="fstep" data-step="2">
+<h3 style="margin-bottom:6px">Étape 3 — Le dommage</h3>
+<p class="note" style="margin-bottom:22px">Diagnostic &amp; assurance. Sélectionnez une ou plusieurs prestations.</p>
+<div class="checks">
+<label class="check"><input type="checkbox" id="svc-tolerie" name="services" value="tolerie"><span><b>01. Tôlerie &amp; redressage</b><span>Châssis, marbre, tôles déformées, éléments emboutis.</span></span></label>
+<label class="check"><input type="checkbox" id="svc-peinture" name="services" value="peinture"><span><b>02. Peinture au four</b><span>Raccord de teinte d'origine, rayures, vernis.</span></span></label>
+<label class="check"><input type="checkbox" id="svc-debosselage" name="services" value="debosselage"><span><b>03. Débosselage sans peinture</b><span>Impacts de grêle, coups de portière de parking.</span></span></label>
+<label class="check"><input type="checkbox" id="svc-parebrise" name="services" value="pare-brise"><span><b>04. Pare-brise &amp; vitrage</b><span>Fissure, impact de gravillon, étanchéité.</span></span></label>
+</div>
+<p class="err" id="svc-err" style="display:none;color:var(--orange-d);font-weight:600;font-size:13px;margin-top:8px">Sélectionnez au moins une prestation.</p>
+<div class="field" style="margin-top:18px"><label for="f-desc">Description de l'incident &amp; localisation précise des dégâts <span class="req">*</span></label><textarea id="f-desc" name="description" rows="4" placeholder="Ex : Choc à basse vitesse. Aile avant droite froissée avec transfert de peinture, pare-choc avant rayé…" data-required></textarea><span class="err">Décrivez le dommage en quelques lignes.</span></div>
+<label class="check" style="margin-bottom:0"><input type="checkbox" id="f-assurance" name="assurance"><span><b>Sinistre déclaré à une compagnie d'assurance suisse</b><span>Responsabilité civile, casco partielle ou casco complète. Les modalités de prise en charge sont à confirmer auprès de Max Gilgen.</span></span></label>
+<div class="wiznav"><button type="button" class="btn ghost" data-prev>← Retour</button><button type="button" class="btn" data-next>Étape suivante : Photos →</button></div>
+</div>
+
+<div class="fstep" data-step="3">
+<h3 style="margin-bottom:6px">Étape 4 — Photos du dommage</h3>
+<p class="note" style="margin-bottom:22px">Jusqu'à 5 photos. Les clichés permettent à l'atelier de chiffrer précisément votre demande.</p>
+<div class="drop" id="drop" role="button" tabindex="0" aria-label="Joindre des photos">
+<strong style="font-family:var(--disp);font-size:22px;text-transform:uppercase">Glissez vos fichiers ici ou cliquez pour sélectionner</strong>
+<p>Formats acceptés : JPG, PNG, HEIC · Jusqu'à 5 photos</p>
+<input type="file" id="f-photos" accept="image/*" multiple hidden>
+</div>
+<div class="thumbs" id="thumbs" aria-live="polite"></div>
+<h4 style="font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:24px 0 10px">Conseils de cadrage pour un chiffrage précis</h4>
+<ol style="margin-left:20px;color:var(--ink2);font-size:15px">
+<li style="padding:3px 0"><b>Vue globale :</b> plan large montrant le véhicule entier.</li>
+<li style="padding:3px 0"><b>Vue moyenne :</b> à environ un mètre, centrée sur le panneau impacté.</li>
+<li style="padding:3px 0"><b>Gros plan lumineux :</b> cliché net, sous lumière rasante si possible.</li>
+</ol>
+<div class="summary" aria-label="Récapitulatif de votre demande">
+<h3>Récapitulatif de votre demande</h3>
+<dl>
+<dt>Demandeur</dt><dd id="sum-nom">—</dd>
+<dt>Téléphone</dt><dd id="sum-tel">—</dd>
+<dt>Courriel</dt><dd id="sum-email">—</dd>
+<dt>Véhicule</dt><dd id="sum-veh">—</dd>
+<dt>Prestations</dt><dd id="sum-svc">—</dd>
+<dt>Photos</dt><dd id="sum-photos">Aucune photo jointe</dd>
+</dl>
+<p class="note" style="margin-top:14px">Cette estimation préliminaire n'engage aucune obligation de réparation. L'atelier se réserve le droit d'ajuster les éléments d'intervention après examen du véhicule sur place.</p>
+</div>
+<div class="wiznav"><button type="button" class="btn ghost" data-prev>← Retour</button><button type="submit" class="btn">Transmettre la demande à l'atelier →</button></div>
+<p class="note" style="margin-top:16px;text-align:right">Assistance directe par téléphone : <a href="tel:+41327302730">032 730 27 30</a></p>
+</div>
+</form>
+</div>
+
+<div class="formcard confirm" id="confirm" role="status">
+<div class="tick">✓</div>
+<h2>Demande transmise — merci</h2>
+<p>Votre demande de devis a bien été enregistrée. Max Gilgen l'examine et vous recontacte avec une proposition chiffrée, sans engagement.</p>
+<p class="ref" id="confirm-ref">Référence de la demande : —</p>
+<p>En attendant, vous pouvez joindre directement l'atelier au <a href="tel:+41327302730">032 730 27 30</a> ou par courriel à <a href="mailto:carrosserie.gilgen@bluewin.ch">carrosserie.gilgen@bluewin.ch</a>.</p>
+<p class="note" style="margin-top:18px">Démonstration : ce formulaire n'envoie pas encore de courriel — aucune donnée n'a été transmise. Pour une vraie demande, contactez directement l'atelier aux coordonnées ci-dessus.</p>
+<div style="margin-top:24px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+<a class="btn" href="index.html">← Retour à l'accueil</a>
+<a class="btn ghost" href="galerie.html">Voir la galerie avant / après</a>
+</div>
+</div>
+</div></section>
+
+</main>
+<footer class="site">
+<div class="wrap cols">
+<div>
+<div class="fname">Carrosserie<br>des Fahys</div>
+<p style="margin-top:14px">Atelier de carrosserie à Neuchâtel.<br>Max Gilgen — exploitant de l'atelier.</p>
+<p style="margin-top:12px">UID : CHE-107.915.728<br>Registre du commerce : canton de Neuchâtel</p>
+</div>
+<div>
+<h4>01 // Services</h4>
+<ul>
+<li><a href="services.html#tolerie">Tôlerie &amp; redressage</a></li>
+<li><a href="services.html#peinture">Peinture &amp; colorimétrie</a></li>
+<li><a href="services.html#debosselage">Débosselage sans peinture</a></li>
+<li><a href="services.html#pare-brise">Pare-brise &amp; vitrage</a></li>
+</ul>
+</div>
+<div>
+<h4>02 // Atelier &amp; horaires</h4>
+<p>Rue des Fahys 7, 2000 Neuchâtel<br>Suisse</p>
+<p style="margin-top:10px">Lundi – Vendredi<br>07:30 – 12:00<br>13:30 – 18:00</p>
+</div>
+<div>
+<h4>03 // Contact direct</h4>
+<p>Ligne directe atelier :<br><a href="tel:+41327302730">032 730 27 30</a></p>
+<p style="margin-top:10px">Courriel :<br><a href="mailto:carrosserie.gilgen@bluewin.ch">carrosserie.gilgen@bluewin.ch</a></p>
+<p style="margin-top:10px"><a href="devis.html">Demander un devis en ligne →</a></p>
+</div>
+</div>
+<div class="base"><div class="wrap">
+<span>© 2026 Carrosserie des Fahys · Max Gilgen</span>
+<span>Rue des Fahys 7, 2000 Neuchâtel</span>
+<span><a href="mentions-legales.html">Mentions légales</a></span>
+<span><a href="mentions-legales.html#donnees">Protection des données (nLPD)</a></span>
+<span>Site de démonstration — Carrosserie des Fahys</span>
+</div></div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script>
+(function () {
+  var form = document.getElementById("wiz-form");
+  var steps = Array.prototype.slice.call(document.querySelectorAll(".fstep"));
+  var indicators = Array.prototype.slice.call(document.querySelectorAll(".progress .st"));
+  var current = 0;
+  var files = [];
+  var params = new URLSearchParams(window.location.search);
+  var preset = params.get("service");
+
+  function show(i) {
+    current = i;
+    steps.forEach(function (s, k) { s.classList.toggle("on", k === i); });
+    indicators.forEach(function (el, k) {
+      el.classList.toggle("on", k === i);
+      el.classList.toggle("done", k < i);
+    });
+    var first = steps[i].querySelector("input,select,textarea");
+    if (first && window.innerWidth > 700) first.focus({ preventScroll: true });
+    updateSummary();
+    window.scrollTo({ top: form.getBoundingClientRect().top + window.scrollY - 140, behavior: "smooth" });
+  }
+  function valid(i) {
+    var ok = true;
+    steps[i].querySelectorAll("[data-required]").forEach(function (el) {
+      var field = el.closest(".field");
+      var empty = !el.value || !String(el.value).trim();
+      if (el.type === "email" && !empty) empty = !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value);
+      if (el.type === "checkbox") empty = !el.checked;
+      if (field) field.classList.toggle("invalid", empty);
+      if (empty) ok = false;
+    });
+    if (i === 2) {
+      var any = steps[2].querySelectorAll(".check input:checked").length > 0;
+      var box = document.getElementById("svc-err");
+      if (box) box.style.display = any ? "none" : "block";
+      if (!any) ok = false;
+    }
+    return ok;
+  }
+  function updateSummary() {
+    var g = function (id) { var e = document.getElementById(id); return e && e.value ? e.value : "—"; };
+    var svcs = Array.prototype.slice.call(document.querySelectorAll(".check input:checked"))
+      .map(function (c) { return c.closest(".check").querySelector("b").textContent; });
+    var set = function (id, v) { var e = document.getElementById(id); if (e) e.textContent = v; };
+    set("sum-nom", g("f-nom")); set("sum-tel", g("f-tel")); set("sum-email", g("f-email"));
+    set("sum-veh", [g("f-marque"), g("f-modele"), g("f-annee")].filter(function (x) { return x !== "—"; }).join(" ") || "—");
+    set("sum-svc", svcs.length ? svcs.join(", ") : "—");
+    set("sum-photos", files.length ? files.length + " photo(s) jointe(s)" : "Aucune photo jointe");
+  }
+  document.querySelectorAll("[data-next]").forEach(function (b) {
+    b.addEventListener("click", function () { if (valid(current)) show(current + 1); });
+  });
+  document.querySelectorAll("[data-prev]").forEach(function (b) {
+    b.addEventListener("click", function () { show(current - 1); });
+  });
+  document.querySelectorAll("[data-goto]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var t = parseInt(b.getAttribute("data-goto"), 10);
+      if (t < current || valid(current)) show(t);
+    });
+  });
+  /* Preselect service from ?service= */
+  if (preset) {
+    var map = { tolerie: "svc-tolerie", peinture: "svc-peinture", debosselage: "svc-debosselage", "pare-brise": "svc-parebrise" };
+    var cb = document.getElementById(map[preset] || "");
+    if (cb) cb.checked = true;
+  }
+  /* Photo upload: up to 5, drag & drop */
+  var drop = document.getElementById("drop");
+  var input = document.getElementById("f-photos");
+  var thumbs = document.getElementById("thumbs");
+  function renderThumbs() {
+    thumbs.innerHTML = "";
+    files.forEach(function (f, i) {
+      var d = document.createElement("span");
+      d.className = "thumb";
+      d.textContent = (i + 1) + ". " + f.name;
+      var x = document.createElement("button");
+      x.type = "button"; x.textContent = "✕"; x.setAttribute("aria-label", "Retirer " + f.name);
+      x.addEventListener("click", function () { files.splice(i, 1); renderThumbs(); updateSummary(); });
+      d.appendChild(x); thumbs.appendChild(d);
+    });
+    updateSummary();
+  }
+  function addFiles(list) {
+    Array.prototype.slice.call(list).forEach(function (f) {
+      if (files.length >= 5) return;
+      if (!/^image\//.test(f.type)) return;
+      files.push(f);
+    });
+    renderThumbs();
+  }
+  if (drop) {
+    drop.addEventListener("click", function () { input.click(); });
+    drop.addEventListener("dragover", function (e) { e.preventDefault(); drop.classList.add("over"); });
+    drop.addEventListener("dragleave", function () { drop.classList.remove("over"); });
+    drop.addEventListener("drop", function (e) { e.preventDefault(); drop.classList.remove("over"); addFiles(e.dataTransfer.files); });
+  }
+  if (input) input.addEventListener("change", function () { addFiles(input.files); input.value = ""; });
+  /* Live summary inputs */
+  form.addEventListener("input", updateSummary);
+  form.addEventListener("change", updateSummary);
+  /* Submit -> confirmation */
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!valid(3)) return;
+    var ref = "FAHYS-DEV-2026-" + String(Math.floor(1000 + Math.random() * 9000));
+    var refEl = document.getElementById("confirm-ref");
+    if (refEl) refEl.textContent = "Référence de la demande : " + ref;
+    document.getElementById("wizard").style.display = "none";
+    document.getElementById("confirm").classList.add("on");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  show(0);
+})();
+</script>
+</body>
+</html>
